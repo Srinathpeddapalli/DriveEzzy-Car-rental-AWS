@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveEzzy</title> 
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; color: black;">
+    <div class="hero" style="background-image: url('/static/img/home_page.jpg'); height: 135vh; background-size: cover; background-position: top; position: sticky; display: flex; justify-content: center; align-items: center;"> <!-- Changed align-items to center -->
+        <div style="text-align: center; color: rgb(11, 23, 9); margin-top: -485px;"> <!-- Keep this margin-top or adjust as needed -->
+            <h1 style="margin: 0; padding: 0;">Welcome to Drive Ezzy</h1>
+            <h2 style="margin: 0; padding-top: 10px;">Drive with ease, explore with confidence</h2>
+            <div style="text-align: center; margin: 30px 0;">
+                <button onclick="location.href='/register'" style="width: 2cm; padding: 10px; background-color: rgb(57, 204, 204); border: none; color: black; cursor: pointer; margin: 0 20px;">Register</button>
+                <button onclick="location.href='/login'" style="width: 2cm; padding: 10px; background-color: rgb(57, 204, 204); border: none; color: black; cursor: pointer; margin: 0 20px;">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about us" style="padding: 20px; text-align: center;">
+        <div>
+            <h2>About Us</h2>
+            <img src="/static/img/about_us.jpg" alt="About Us Image" style="width: 75%; height: 25%; margin-right: 0%;">
+        </div>
+        <p>At DriveEzzy, we provide easy, reliable car rentals designed for your convenience. With a smooth booking process and a quality fleet, we ensure every trip is effortless.</p>
+    </div>
+
+    <div class="gallery" style="padding: 20px; text-align: center;">
+        <h2>Gallery</h2>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px;">
+            <img src="/static/img/gallery_image_1.jpg" alt="Hotel Image 1" style="width: 100%; height: 100%;">
+            <img src="/static/img/gallery_images_2.jpg" alt="Hotel Image 2" style="width: 100%; height: 100%;">
+            <img src="/static/img/gallery_image_3.jpg" alt="Hotel Image 3" style="width: 100%; height: 100%;">
+            <img src="/static/img/gallery_image_4.jpg" alt="Hotel Image 4" style="width: 100%; height: 60%;">
+            <img src="/static/img/sedan.jpg" alt="Hotel Image 5" style="width: 100%; height: 60%;">
+            <img src="/static/img/SUV.jpg" alt="Hotel Image 3" style="width: 100%; height: 60%;">
+        </div>
+    </div>
+
+    <div class="feedback" style="padding: 20px; text-align: center;">
+        <h2>Customer Feedback</h2>
+        <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+            <div style="width: 30%; padding: 10px; border: 1px solid silver; border-radius: 5px;">
+                <p><strong>William Garcia</strong> "Hassle-free rentals and great customer support" </p>
+            </div>
+            <div style="width: 30%; padding: 10px; border: 1px solid silver; border-radius: 5px;">
+                <p><strong>Olivia Brown</strong> "Excellent service and well-maintained cars—very pleased" </p>
+            </div>
+            <div style="width: 30%; padding: 10px; border: 1px solid silver; border-radius: 5px;">
+                <p><strong>Mia Thompson</strong> "A top-notch car rental experience from start to finish" </p>
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: black; color: rgb(127, 219, 255); text-align: center; padding: 20px;">
+        <p>&copy; 2024 DriveEzzy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

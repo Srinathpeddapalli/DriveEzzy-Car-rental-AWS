@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Rooms</title>  
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body style="background-image: url('/static/img/Screenshot\ 2024-09-24\ 225324.png'); background-size: cover; background-position: center; height: 100vh; margin: 0; font-family: Arial, sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div class="container" style="background-color: rgba(3, 3, 3, 0.8); padding: 20px; border-radius: 10px; width: 80%; text-align: center;">
+        <h1>Select Car Type</h1>
+        <form action="{{ url_for('car_type') }}" method="POST" style="margin-bottom: 20px;">
+            <label for="car_type">Car Type:</label>
+            <select name="car_type" id="car_type" required style="padding: 10px; width: 200px; margin: 10px 0;">
+                <option value="Sedan">Sedan</option>
+                <option value="SUV">SUV</option>
+                <option value="MiniCamperVan">Mini CamperVan</option>
+            </select><br>
+            <input type="submit" value="Proceed to Book" style="padding: 10px 20px; background-color: rgb(57, 204, 204); border: none; color: black; cursor: pointer; margin-top: 20px;">
+        </form>
+
+        <div class="room-options" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center;">
+            <div>
+                <img src="/static/img/sedan.jpg" alt="sedan" style="width: 100%; height: 80%; border-radius: 5px;">
+                <p>Sedan</p>
+            </div>
+            <div>
+                <img src="/static/img/SUV.jpg" alt="SUV" style="width: 100%; height: 80%; border-radius: 5px;">
+                <p>SUV</p>
+            </div>
+            <div>
+                <img src="/static/img/MiniCamperVan.jpg" alt="MiniCamperVan" style="width: 100%; height: 80%; border-radius: 5px;">
+                <p>Mini CamperVan</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
