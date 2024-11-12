@@ -1,7 +1,7 @@
 # AWS Cloud Solution for Car Rental Management with EC2 and RDS
 
 ## Project Description
-The Drive Ezzy project is a cloud-based, scalable car rental platform designed to streamline the vehicle rental process for users looking to rent sedans, SUVs, and mini camper vans. Developed using Flask for backend management and hosted on AWS EC2 with Amazon RDS for database support, the platform ensures secure, efficient, and reliable user interactions. Drive Ezzy simplifies car rental by enabling users to browse available vehicles, choose rental periods, add special requests, and manage payments, delivering a smooth and scalable customer experience.
+The Car rental project is a cloud-based, scalable car rental platform designed to streamline the vehicle rental process for users looking to rent sedans, SUVs, and mini camper vans. Developed using Flask for backend management and hosted on AWS EC2 with Amazon RDS for database support, the platform ensures secure, efficient, and reliable user interactions. Drive Ezzy simplifies car rental by enabling users to browse available vehicles, choose rental periods, add special requests, and manage payments, delivering a smooth and scalable customer experience.
 
 ## Key Scenarios
 
